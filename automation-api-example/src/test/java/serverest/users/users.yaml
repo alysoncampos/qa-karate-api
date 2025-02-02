@@ -1,0 +1,5 @@
+POST_USERS:
+  headers: { "accept": "application/json", "Content-Type": "application/json" }
+  body: { "nome": "Usuario de Teste", "email": "usuario_de_teste@email.com", "password": "teste123", "administrador": "true" }
+  message: "Cadastro realizado com sucesso"
+  emailExists: "Este email já está sendo usado"
